@@ -18,3 +18,9 @@
     font-weight: 600;
     font-size: 22px;
 }
+
+.user-component__subtitle{
+    margin-top: 8px;
+    font-size: 17px;
+    color: rgb(0, 0, 0, 0.5);
+}
