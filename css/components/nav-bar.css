@@ -1,0 +1,24 @@
+.status-bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    /박스에 패딩을 설정하면 박스 사이즈가 패딩을 넣은만큼 늘어난다. 
+    그래서 화면 밖으로 아이콘이 사라질 수 있다. 
+    그러므로 border-box는 박스 사이즈를 늘리지 말라는 것을 의미한다./
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link{
+    color: #2e363e;
+}
