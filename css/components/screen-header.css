@@ -11,5 +11,17 @@
     font-weight: 600;
 }
 .screen-header__icons span{
+    position: relative;
     margin-left: 25px;
+}
+
+.gear-point{
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    /*이게 span 사이에 있는 div라 구조 파악이 좀 힘들었는데 다음에는 div끼리 있을 때 구조 아팍을 해보자*/
 }
