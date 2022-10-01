@@ -101,3 +101,24 @@
 .open-post__heart-count span{
     margin-left: 3px;
 }
+
+@keyframes heartBeat {
+    0%{
+        color: white;
+        transform: none;
+    }
+    50%{
+        color: tomato;
+        transform: scale(1.5);
+    }
+    100%{
+        color: white;
+        transform: none;
+    }
+}
+
+.open-post__heart-count:hover i{
+    will-change: transform;
+    /*will-change는 브라우저에게 change가 있을거라 힌트를 주고 확신을 줘서 change를 가속화함.*/
+    animation: heartBeat 2s linear infinite;
+}
